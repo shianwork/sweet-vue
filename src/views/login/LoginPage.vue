@@ -27,9 +27,13 @@
 </template>
 
 <script >
+
+import { IMAGE_PATHS } from '@/config';
 export default {
   data() {
     return {
+      image1:IMAGE_PATHS.image1,
+      image2:IMAGE_PATHS.image2,
       username: '',
       password: ''
     }
@@ -98,7 +102,7 @@ export default {
 }
 
 .login-container {
-  background-image: url('/src/assets/login_1.jpg');
+  background-image: url(${image1.loginImage});
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;

@@ -102,7 +102,7 @@ export default {
 }
 
 .login-container {
-  background-image: url('/src/assets/login_1.jpg');
+  background-image: url('@/config/');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
